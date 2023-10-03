@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+button {
+    all: unset;
+    background: linear-gradient(purple, blue);
+    color: white;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+
+span {
+    display: block;
+    margin-top: 1rem;
+}
